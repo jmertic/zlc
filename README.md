@@ -70,6 +70,6 @@ The Zowe project is self governed by the Zowe community, with each sub-project s
    - [Two Factor Authenication (2FA) requirement](process/2factor-authentication.md)
 - [Code of Conduct](https://www.linuxfoundation.org/code-of-conduct/) - Zowe community members are bound to the Linux Foundation Code of Conduct.
 - [Framework Release Process](process/release.md)
-- [License and Copyright guidance](LicenseAndCopyrightGuidance.md)
+- [License and Copyright guidance](process/LicenseAndCopyrightGuidance.md)
 
 All of these documents have been approved by both the Zowe Leadership Committee (ZLC) as well as the Open Mainframe Project Techincal Steering Committee (TSC). These documents can be amended by a majority vote of the ZLC at any time.

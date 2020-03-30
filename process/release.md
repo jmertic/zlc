@@ -31,9 +31,9 @@ There are two significant and different release artifacts for Zowe.  The source 
 
 The project officially release source code which can be built into an executable version of Zowe.  This is the core deliverable of Zowe and is intended for downstream consumers that may use Zowe in their projects or products as well as other developers.
 
-The "Convenience Build" is composed of two courtesy release artifacts:
+The "Convenience Build" is composed of courtesy release artifacts:
 * An installer and all available artifacts to run and use Zowe on z/OS including sample applications.
-* An offline installable version of the Zowe CLI.
+* An offline installable version of the Zowe CLI. The CLI is split between two archives: a "core" archive containing the CLI base and Secure Credential Store, and a "plugins" archive containing community CLI plugins.
 
 The convenience build is intended for consumers that simply want to use Zowe and its APIs.  This is built from the source code release above. Code from other projects that have compatible open source licenses may be included to support overall Zowe capability.  Like bash, git, python as well as zOS-Workflows or other related projects to facilitate a complete software stack for Zowe. Zowe may release its convenience build artifacts at the same time or independently of one another per project discretion and vote in accordance with the normal [release process](#release-approval-procedure).
 

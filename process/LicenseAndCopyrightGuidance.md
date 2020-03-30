@@ -2,9 +2,11 @@
 
 When contributing source code to Zowe, there are two primary requirements that relate to license and copyright notices.
 
-First, all repositories need to contain a license file.  Zowe uses the [Eclipse Public License 2.0 (EPL-2.0)](https://www.eclipse.org/legal/epl-v20.html).  Include the plain-text version of the license, available at https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.txt, as a LICENSE file in the top-level directory of the Zowe repostiory.
+First, all repositories need to contain a license file.  Zowe uses the [Eclipse Public License 2.0 (EPL-2.0)](https://www.eclipse.org/legal/epl-v20.html) for code shipped with the Zowe releases, and dual licenses any example code or code that is intended to be leveraged in third party products under both the [Eclipse Public License 2.0 (EPL-2.0)](https://www.eclipse.org/legal/epl-v20.html) and [Apache License, Version 2.0 (Apache-2.0)](http://www.apache.org/licenses/LICENSE-2.0).  Include the plain-text version of the license ( either the [EPL-2.0](https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.txt) or both the [EPL-2.0](https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.txt) and [Apache-2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) license as appropriate), as a LICENSE file in the top-level directory of any Zowe repostiory.
 
 Second, all source files need to include a header to clearly show the license.  Zowe has standardized on including [SPDX short-form license identifiers](https://spdx.org/ids) and a general copyright statement as shown below:
+
+Example of an EPL-2.0 only licensed source file:
 
 ````
 /**
@@ -13,6 +15,20 @@ Second, all source files need to include a header to clearly show the license.  
   https://www.eclipse.org/legal/epl-v20.html
 
   SPDX-License-Identifier: EPL-2.0
+
+  Copyright Contributors to the Zowe Project.
+**/
+````
+
+Example of a dual licensed source file undee either the EPL-2.0 or Apache-2.0:
+
+````
+/**
+  This program and the accompanying materials are made available and may be used, at your option, under either:
+    * Eclipse Public License v2.0, available at https://www.eclipse.org/legal/epl-v20.html, OR
+    * Apache License, version 2.0, available at http://www.apache.org/licenses/LICENSE-2.0
+
+  SPDX-License-Identifier: EPL-2.0 OR Apache-2.0
 
   Copyright Contributors to the Zowe Project.
 **/
